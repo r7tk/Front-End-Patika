@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.ust_kisim  {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    }
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 92px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.buttons {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.search-button, .feeling-lucky-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover, .feeling-lucky-button:hover {
+    background-color: #e6e6e6;
+}
+
+.nokta img {
+    width: 48px;
+    }
+    
+    .profil img{
+    width: 48px;
+    border-radius: 100%;
+    
+    }
+    
+    .orta_kisim img{
+           
+            object-fit: contain;
+            object-position: center bottom;
+            width: auto;
+            transform:translate(-50%,-100%) ;
+            top: -50;
+    }
+    
+    .orta_kisim{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
