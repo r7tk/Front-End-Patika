@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:cornsilk ;
+}
+
+.container{
+    width: 600px;
+    height: auto;
+    margin: 0px au;
+    display: grid;
+    /* grid-template-rows: 200px 200px;  /* Grid Satır Yüksekliği 
+    grid-template-columns: 200px 200px 200px; Grid Sütun Genişliği */
+    grid-template: repeat(5, 250px) / 1fr 1fr 1fr 1fr;
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    gap: 25px;
+}
+
+.kutu1{
+    background-color: red;
+    /* grid-column-start: 2;
+    grid-column-end: 3; */
+    grid-column: 1/-1;
+}
+
+.kutu2{
+    justify-content: space-around;
+    align-content: center;
+    background-color: yellow;
+}
+
+.kutu3{
+    background-color: blue;
+}
+
+.kutu4{
+    background-color: green;
+}
+
+.kutu5{
+    background-color: black;
+}
+
+.kutu6{
+    background-color: mediumorchid;
+}
+

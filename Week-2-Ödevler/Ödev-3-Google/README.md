@@ -1,4 +1,1 @@
-# Google Ödevi
-## Resim
-
-![alt text](readme.png)
+![google](images/google.png)
