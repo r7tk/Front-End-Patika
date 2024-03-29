@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  background: url(img/308785042_457896756366372_2177757839283100546_n.jpg);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.container .navbar {
+  width: 100%;
+  height: 80px;
+  background: rgba(129, 129, 136, 0.486);
+}
+
+.navbar ul {
+  margin-right: 20px;
+  float: right;
+  list-style: none;
+}
+
+.navbar .logo {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.navbar .logo a {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "serif";
+  color: #f3f3f3;
+}
+
+.container img {
+  width: 100px;
+  margin-bottom: 50%;
+}
+
+.navbar ul li {
+  margin: 6px;
+  display: inline-block;
+  line-height: 60px;
+  cursor: pointer;
+  border: transparent solid #f3f3f3;
+  padding: 16px;
+}
+
+.navbar ul li a {
+  color: #f3f3f3;
+  text-decoration: none;
+  padding: 6px 5px;
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+  background: rgba(146, 4, 75, 0.644);
+  border-radius: 5rem;
+  border: transparent solid #f3f3f3;
+  /* padding: 16px; */
+}
+
+.container .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  user-select: none;
+}
+
+.footer {
+  background: rgba(129, 129, 136, 0.705);
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  font-size: 1.5em;
+  background-size: auto;
+  color: #f3f3f3;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.center h1 {
+  color: black;
+  font-size: 70px;
+  font-weight: bold;
+  width: 900px;
+  text-align: center;
+}
+
+.center h2 {
+  color: #f3f3f3;
+  font-size: 50px;
+  font-weight: bold;
+  width: 885px;
+  margin-top: 10px;
+}
+
+.container .gallery {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-row: 200px 200px 200px;
+  gap: 5px;
+  justify-content: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  border: #f3f3f3 solid 1px;
+  gap: 5px; /* Resimler arasındaki boşluk */
+  padding: 200px;
+  position: unset;
+  margin: 0 auto;
+  width: 1000px;
+  height: 1000px;
+  background-color: rgba(182, 182, 182, 0.644);
+  margin-top: 50px;
+}
+
+.gallery img {
+  width: 100%; /* Resimleri kutunun içine sığdırmak için */
+  height: auto;
+  gap: 0px;
+  margin: 0px;
+  border-radius: 10px;
+  border-style: groove;
+  transition: transform 0.3s ease; /* Geçiş efekti için */
+}
+
+.gallery div {
+  background-color: rgba(4, 125, 146, 0.644);
+
+  color: rgb(186, 229, 236);
+  text-align: center;
+}
+
+.gallery img:hover {
+  transform: scale(1.2); /* Resmi 1.1 kat büyüt */
+}
+
+.gallery img:active {
+  transform: scale(3);
+}
